@@ -1,0 +1,30 @@
+# Local hosting and deployment state
+.netlify/
+.vercel/
+
+# Node and Composer dependencies
+node_modules/
+vendor/
+composer.lock
+
+# Private contact-delivery configuration and rate records
+server-config/contact-config.php
+server-config/contact-rates/
+contact-rates/
+*.secret.php
+.env
+.env.*
+!.env.example
+
+# Local editor, OS and test artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
+playwright-report/
+test-results/
+
+# Deployment archives and logs
+*.zip
+*.log

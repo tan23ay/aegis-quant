@@ -1,0 +1,15 @@
+{
+  "name": "aegis-quant/contact-delivery",
+  "description": "Private dependencies for the Aegis Quant website contact endpoint",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "ext-openssl": "*",
+    "ext-mbstring": "*",
+    "phpmailer/phpmailer": "7.1.1"
+  },
+  "config": {
+    "allow-plugins": false,
+    "sort-packages": true
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101510">
+  <meta name="description" content="Sign in to the Aegis Quant synthetic research workspace.">
+  <title>Sign in · Aegis Quant</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/landing.css">
+  <script src="assets/auth-config.js" defer></script>
+  <script src="assets/auth.js" defer></script>
+</head>
+<body class="auth-page">
+  <main class="auth-page-shell">
+    <a class="brand auth-brand" href="index.html#home" aria-label="Aegis Quant home"><svg viewBox="0 0 32 36" fill="none" aria-hidden="true"><path d="M16 2 29 7v11c0 7-5 12-13 16C8 30 3 25 3 18V7L16 2Z" stroke="currentColor" stroke-width="1.8"/><path d="m9 23 7-14 7 14M12 19h8" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>AEGIS <strong>QUANT</strong><small>CLARITY BEFORE CAPITAL</small></span></a>
+    <div class="auth-page-card">
+      <p class="eyebrow">RETURN TO YOUR WORKSPACE</p>
+      <h1>Continue with Aegis Quant.</h1>
+      <p class="auth-intro">Choose a simple sign-in path. The current review build uses a safe preview flow until an identity provider is connected to this domain.</p>
+      <form data-auth-form novalidate><label>Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label><button class="button primary auth-submit" type="submit">Continue with email <span aria-hidden="true">→</span></button></form>
+      <div class="auth-divider"><span>or</span></div>
+      <div class="auth-providers"><button class="button auth-provider" type="button" data-auth-provider="google"><span class="provider-mark">G</span>Continue with Google</button><button class="button auth-provider" type="button" data-auth-provider="microsoft"><span class="provider-mark">▦</span>Continue with Microsoft</button></div><a class="auth-page-link" href="index.html#home">Back to the landing page <span aria-hidden="true">↗</span></a>
+      <p class="auth-status" data-auth-status role="status" aria-live="polite">Preview mode is ready. No account or password is stored.</p>
+      <a class="button primary auth-dashboard-link" data-auth-dashboard href="dashboard/index.html#overview" hidden>Continue to the demo workspace <span aria-hidden="true">↗</span></a>
+      <p class="auth-footnote">Best practice: use passwordless email or OAuth so Aegis Quant never handles a visitor’s password. No account is created by this local preview.</p>
+    </div>
+    <p class="auth-page-foot"><a href="index.html#contact">Questions? Contact Aegis Quant</a></p>
+  </main>
+</body>
+</html>

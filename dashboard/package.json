@@ -1,0 +1,10 @@
+{
+  "name": "aegis-quant-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive Aegis Quant research dashboard with labeled synthetic fixtures",
+  "type": "module",
+  "scripts": { "start": "node server.mjs", "preview": "node server.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}
